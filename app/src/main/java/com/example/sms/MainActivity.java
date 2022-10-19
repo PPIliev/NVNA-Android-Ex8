@@ -41,7 +41,9 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
+        if (ActivityCompat.checkSelfPermission(MainActivity.this, Manifest.permission.RECEIVE_SMS) != PackageManager.PERMISSION_GRANTED) {
+            ActivityCompat.requestPermissions(MainActivity.this, new String[] {Manifest.permission.RECEIVE_SMS}, 0);
+        }
 
 
     }
