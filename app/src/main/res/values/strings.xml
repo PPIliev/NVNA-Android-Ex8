@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">SMS</string>
+    <string name="mobile">mobile</string>
+    <string name="entermessage">Enter message here</string>
+    <string name="bsend">Send</string>
+</resources>
